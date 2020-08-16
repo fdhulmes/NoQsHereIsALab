@@ -10,7 +10,7 @@ public class Node {
 
     public Node(String word){
         this.word = word;
-        this.numOccurences = 0;
+        this.numOccurences = 1;
         this.offsets = new ArrayList<Integer>();
     }
 

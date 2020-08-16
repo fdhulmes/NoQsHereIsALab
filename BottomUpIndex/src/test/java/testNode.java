@@ -9,7 +9,7 @@ public class testNode {
     @Test
     public void testNodeConstructor(){
         String expectedWord = "word";
-        Integer expectedOcc = 0;
+        Integer expectedOcc = 1;
         Node node = new Node(expectedWord);
 
         assertEquals(node.getWord(), expectedWord);
