@@ -6,6 +6,8 @@ public class Node {
     private Integer numOccurences;
     private ArrayList<Integer> offsets;
 
+    public Node(){};
+
     public Node(String word){
         this.word = word;
         this.numOccurences = 0;
